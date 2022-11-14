@@ -1,0 +1,6 @@
+framework module Pods_SendClick {
+  umbrella header "Pods-SendClick-umbrella.h"
+
+  export *
+  module * { export * }
+}
