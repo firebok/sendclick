@@ -8,6 +8,10 @@ Instalar usando la terminal
 
   curl -sSL https://get.rvm.io | bash -s stable --ruby
   
+  brew install rbenv
+  
+  rbenv init
+  
   
 *cerrar y volver abrir terminal verifivar si se actualizo la version
 
