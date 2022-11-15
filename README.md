@@ -13,7 +13,6 @@ Instalar usando la terminal
 
 Abrir el archivo SendClick.xcworkspace
 
-/* 
 git remote add origin https://github.com/firebok/sendclick.git
 git checkout -b "your_name"
 git add .
