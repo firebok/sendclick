@@ -6,18 +6,19 @@ Instalar usando la terminal
 
 *actualizar version ruby
 
-  curl -sSL https://get.rvm.io | bash -s stable --ruby
-  
-  brew install rbenv
-  
-  rbenv init
-  
-  
-*cerrar y volver abrir terminal verifivar si se actualizo la version
+/descargar el instalador segun la version de OSX
 
-  rvm install ruby --latest
+https://guide.macports.org/chunked/installing.macports.html
+
+*abrir terminal
   
-  ruby -v
+  $ sudo port install ruby-install
+  
+  $ ruby-install
+  
+  $ ruby-install --latest ruby
+  
+  $ ruby -v
   
 *Cocoapods https://cocoapods.org/
 
