@@ -18,6 +18,11 @@ https://guide.macports.org/chunked/installing.macports.html
   
   $ ruby-install --latest ruby
   
+  $ sudo port install rbenv
+  
+  $ rbenv init
+ /volver abrir la terminal
+  
   $ ruby -v
   
 *Cocoapods https://cocoapods.org/
