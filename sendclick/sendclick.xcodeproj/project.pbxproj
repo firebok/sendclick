@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3D5140292A7BE8003BD8DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC3D513F292A7BE8003BD8DB /* GoogleService-Info.plist */; };
+		CCCCFB9F2929D42300B48213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCFB9E2929D42300B48213 /* AppDelegate.swift */; };
+		CCCCFBA12929D42300B48213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCFBA02929D42300B48213 /* SceneDelegate.swift */; };
+		CCCCFBA32929D42300B48213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCFBA22929D42300B48213 /* ViewController.swift */; };
+		CCCCFBA62929D42400B48213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCFBA42929D42400B48213 /* Main.storyboard */; };
+		CCCCFBA92929D42400B48213 /* sendclick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCCFBA72929D42400B48213 /* sendclick.xcdatamodeld */; };
+		CCCCFBAB2929D47200B48213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCCFBAA2929D47200B48213 /* Assets.xcassets */; };
+		CCCCFBAE2929D47200B48213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCCFBAC2929D47200B48213 /* LaunchScreen.storyboard */; };
+		CCCCFBB82929DDB900B48213 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CCCCFBB72929DDB900B48213 /* FirebaseAnalytics */; };
+		CCCCFBBA2929DDB900B48213 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CCCCFBB92929DDB900B48213 /* FirebaseMessaging */; };
+		CCCCFBBC2929DDB900B48213 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CCCCFBBB2929DDB900B48213 /* FirebaseAuth */; };
+		CCCCFBBE2929DDB900B48213 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CCCCFBBD2929DDB900B48213 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC3D513F292A7BE8003BD8DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCCCFB9B2929D42300B48213 /* sendclick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendclick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCCFB9E2929D42300B48213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCCCFBA02929D42300B48213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCCCFBA22929D42300B48213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCCCFBA52929D42400B48213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCCFBA82929D42400B48213 /* sendclick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sendclick.xcdatamodel; sourceTree = "<group>"; };
+		CCCCFBAA2929D47200B48213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCCCFBAD2929D47200B48213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCCCFBAF2929D47200B48213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCCFB982929D42300B48213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCCFBBA2929DDB900B48213 /* FirebaseMessaging in Frameworks */,
+				CCCCFBBC2929DDB900B48213 /* FirebaseAuth in Frameworks */,
+				CCCCFBBE2929DDB900B48213 /* FirebaseDatabase in Frameworks */,
+				CCCCFBB82929DDB900B48213 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCCFB922929D42300B48213 = {
+			isa = PBXGroup;
+			children = (
+				CCCCFB9D2929D42300B48213 /* sendclick */,
+				CCCCFB9C2929D42300B48213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCCFB9C2929D42300B48213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCFB9B2929D42300B48213 /* sendclick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCCFB9D2929D42300B48213 /* sendclick */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCFB9E2929D42300B48213 /* AppDelegate.swift */,
+				CCCCFBA02929D42300B48213 /* SceneDelegate.swift */,
+				CCCCFBA22929D42300B48213 /* ViewController.swift */,
+				CCCCFBA42929D42400B48213 /* Main.storyboard */,
+				CC3D513F292A7BE8003BD8DB /* GoogleService-Info.plist */,
+				CCCCFBAA2929D47200B48213 /* Assets.xcassets */,
+				CCCCFBAC2929D47200B48213 /* LaunchScreen.storyboard */,
+				CCCCFBAF2929D47200B48213 /* Info.plist */,
+				CCCCFBA72929D42400B48213 /* sendclick.xcdatamodeld */,
+			);
+			path = sendclick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCCFB9A2929D42300B48213 /* sendclick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCCFBB22929D47200B48213 /* Build configuration list for PBXNativeTarget "sendclick" */;
+			buildPhases = (
+				CCCCFB972929D42300B48213 /* Sources */,
+				CCCCFB982929D42300B48213 /* Frameworks */,
+				CCCCFB992929D42300B48213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sendclick;
+			packageProductDependencies = (
+				CCCCFBB72929DDB900B48213 /* FirebaseAnalytics */,
+				CCCCFBB92929DDB900B48213 /* FirebaseMessaging */,
+				CCCCFBBB2929DDB900B48213 /* FirebaseAuth */,
+				CCCCFBBD2929DDB900B48213 /* FirebaseDatabase */,
+			);
+			productName = sendclick;
+			productReference = CCCCFB9B2929D42300B48213 /* sendclick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCCFB932929D42300B48213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CCCCFB9A2929D42300B48213 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CCCCFB962929D42300B48213 /* Build configuration list for PBXProject "sendclick" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCCFB922929D42300B48213;
+			packageReferences = (
+				CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CCCCFB9C2929D42300B48213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCCFB9A2929D42300B48213 /* sendclick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCCFB992929D42300B48213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCCFBAE2929D47200B48213 /* LaunchScreen.storyboard in Resources */,
+				CC3D5140292A7BE8003BD8DB /* GoogleService-Info.plist in Resources */,
+				CCCCFBAB2929D47200B48213 /* Assets.xcassets in Resources */,
+				CCCCFBA62929D42400B48213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCCFB972929D42300B48213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCCFBA32929D42300B48213 /* ViewController.swift in Sources */,
+				CCCCFB9F2929D42300B48213 /* AppDelegate.swift in Sources */,
+				CCCCFBA92929D42400B48213 /* sendclick.xcdatamodeld in Sources */,
+				CCCCFBA12929D42300B48213 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCCCFBA42929D42400B48213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCCFBA52929D42400B48213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCCFBAC2929D47200B48213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCCFBAD2929D47200B48213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCCFBB02929D47200B48213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCCCFBB12929D47200B48213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCCFBB32929D47200B48213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sendclick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devios.sendclick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCCCFBB42929D47200B48213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sendclick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = devios.sendclick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCCFB962929D42300B48213 /* Build configuration list for PBXProject "sendclick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCCFBB02929D47200B48213 /* Debug */,
+				CCCCFBB12929D47200B48213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCCFBB22929D47200B48213 /* Build configuration list for PBXNativeTarget "sendclick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCCFBB32929D47200B48213 /* Debug */,
+				CCCCFBB42929D47200B48213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCCCFBB72929DDB900B48213 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CCCCFBB92929DDB900B48213 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CCCCFBBB2929DDB900B48213 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CCCCFBBD2929DDB900B48213 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCCCFBB62929DDB900B48213 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CCCCFBA72929D42400B48213 /* sendclick.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCCCFBA82929D42400B48213 /* sendclick.xcdatamodel */,
+			);
+			currentVersion = CCCCFBA82929D42400B48213 /* sendclick.xcdatamodel */;
+			path = sendclick.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCCCFB932929D42300B48213 /* Project object */;
+}
